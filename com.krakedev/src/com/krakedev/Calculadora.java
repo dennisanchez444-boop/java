@@ -24,4 +24,12 @@ public class Calculadora {
 		  resultado= valor1/valor2;
 		  return resultado;
 	  }
+	  
+	  public double promediar(double valor1,double valor2, double valor3) {
+		  double resultado;
+		  double valorP;
+		  resultado= valor1+valor2+valor3;
+		  valorP=resultado/3;
+		  return valorP;
+	  } 
 }
