@@ -32,4 +32,8 @@ public class Calculadora {
 		  valorP=resultado/3;
 		  return valorP;
 	  } 
+	  
+	  public void mostrarResultado() {
+		  System.out.println("Ahorita no joven, Sali al almuerzo. Regreso en 15 minutos");
+	  }
 }
