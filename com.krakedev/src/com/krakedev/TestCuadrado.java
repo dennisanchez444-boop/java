@@ -13,9 +13,9 @@ public class TestCuadrado {
 		double area3;
 		double perimetro3;
 		
-		c1.lado=4;
-		c2.lado=3;
-		c3.lado=8;
+		c1.setLado(4);
+		c2.setLado(3);
+		c3.setLado(8);;
 		
 		area1=c1.calcularArea();
 		perimetro1=c1.calcularPerimetro();
