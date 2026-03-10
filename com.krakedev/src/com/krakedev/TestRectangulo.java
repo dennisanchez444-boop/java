@@ -3,9 +3,9 @@ package com.krakedev;
 public class TestRectangulo {
 
 	public static void main(String[] args) {
-		Rectangulo r1 = new Rectangulo();
-		Rectangulo r2 = new Rectangulo();
-		Rectangulo p1 = new Rectangulo();
+		Rectangulo r1 = new Rectangulo(8,4);
+		Rectangulo r2 = new Rectangulo(6,8);
+		Rectangulo p1 = new Rectangulo(6,9);
 		
 		int areaR1;
 		int areaR2;
