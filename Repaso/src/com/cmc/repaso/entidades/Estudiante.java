@@ -1,0 +1,19 @@
+package com.cmc.repaso.entidades;
+
+public class Estudiante {
+  public String nombre;
+  public double nota;
+  public String tipo;
+  
+  public Estudiante(String nombre) {
+	  this.nombre=nombre;
+  }
+  public void calificar(double nota) {
+	  if(nota < 8) {
+		  System.out.println("F");
+	  }else if(nota >=8) {
+		  System.out.println("A");
+	  }
+  }
+  
+}
